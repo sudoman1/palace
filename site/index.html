@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
   <head>
+	  <base href="https://cdn.jsdelivr.net/gh/sudoman1/palace/site/">
     <meta charset="UTF-8">
     <meta property="og:site_name" content="Palace">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/">
-    <meta property="og:image" content="/img/logo.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="img/logo.jpg">
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="100">
     <meta property="og:image:height" content="100">
@@ -14,18 +15,18 @@
     <meta property="og:description" content="Preserving classic videogames from consoles past.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Parapalegic Palace</title>
-    <link rel="icon" sizes="100x100" href="/img/logo.jpg" type="image/jpg">
-    <link rel="icon" sizes="32x32" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="/css/global.min.css">
+    <link rel="icon" sizes="100x100" href="img/logo.jpg" type="image/jpg">
+    <link rel="icon" sizes="32x32" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/global.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap">
     <style>
 #main { bottom:0px; }
     </style>
-    <script src="/js/menu.min.js"></script>
+    <script src="js/menu.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4BESX0QC2N"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -35,29 +36,29 @@
     </script>
   </head>
   <body>
-    <nav id="menu"><div class="menu-segment" style="background:url('/images/menu/sprite4.php') 0px 0px; height:10px"></div>
-<div class="menu-segment" style="background:#000035 url('/images/menu/sprite4.php') 0px -10px; text-align:center; position:relative">
+    <nav id="menu"><div class="menu-segment" style="background:url('images/menu/sprite4.php') 0px 0px; height:10px"></div>
+<div class="menu-segment" style="background:#000035 url('images/menu/sprite4.php') 0px -10px; text-align:center; position:relative">
 	<a href="/" onmouseover="document.getElementById('menuTip').style.removeProperty('display'); document.images['logo'].style.opacity = .5" onmouseout="document.getElementById('menuTip').style.display = 'none'; document.images['logo'].style.opacity = 1">
-		<img style="display:block; margin:auto; transition: opacity .2s" id="logo" src="/images/vimmbutton-100.png" width="100" height="100" alt="">
+		<img style="display:block; margin:auto; transition: opacity .2s" id="logo" src="images/vimmbutton-100.png" width="100" height="100" alt="">
 		<div id="menuTip" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%; color:white; display:none">Vimm's Lair</div>
 	</a>
 </div>
-<div class="menu-segment" style="background:url('/images/menu/sprite4.php') 0px -110px; height:16px"></div>
-<div id="mainMenu" class="menu" style="background-image:url('/images/menu/sprite4.php#svgView(viewBox(0,125,160,1))'); background-repeat:repeat-y; background-size:160px 1px">
-<a href="/emulate">Emulation Lair</a><a href="/vault">The Vault</a><a href="/manual">Manual Project</a><a href="/romhacking">ROM Hacking</a><a href="/bbs">Message Boards</a><a href="/links">FFA Links</a></div>
-<div class="menu-segment" style="background:url('/images/menu/sprite4.php') 0px -125px; height:16px"></div>
-<div class="menu-segment" style="background:url('/images/menu/sprite4.php') 0px -142px; height:10px"></div>
+<div class="menu-segment" style="background:url('images/menu/sprite4.php') 0px -110px; height:16px"></div>
+<div id="mainMenu" class="menu" style="background-image:url('images/menu/sprite4.php#svgView(viewBox(0,125,160,1))'); background-repeat:repeat-y; background-size:160px 1px">
+<a href="/emulate">Emulation Lair</a><a href="/vault">The Vault</a><a href="manual">Manual Project</a><a href="/romhacking">ROM Hacking</a><a href="/bbs">Message Boards</a><a href="/links">FFA Links</a></div>
+<div class="menu-segment" style="background:url('images/menu/sprite4.php') 0px -125px; height:16px"></div>
+<div class="menu-segment" style="background:url('images/menu/sprite4.php') 0px -142px; height:10px"></div>
 
 <div class="menu-footer" style="display:flex; display:none; flex-grow:1; flex-direction:column; justify-content:space-between; margin:0px auto 2px auto">
-<div class="menu"><a href="#" onclick="loadDialog('/bbs/ajax/login-dialog.php', 'login-dialog'); return false">Login / Register</a></div><div class="menu" style="display:none; margin:0px auto 2px auto"><a href="#">Test</a></div></div>
+<div class="menu"><a href="#" onclick="loadDialog('bbs/ajax/login-dialog.php', 'login-dialog'); return false">Login / Register</a></div><div class="menu" style="display:none; margin:0px auto 2px auto"><a href="#">Test</a></div></div>
 
 </nav>
     <nav id="navbar"><div class="navbar">
-  <a href="/" style="padding-left:2px; display:flex; align-items:center"><img class="navLogo" src="/images/vimmbutton-100.png" title="Home" alt="Home"></a>
+  <a href="" style="padding-left:2px; display:flex; align-items:center"><img class="navLogo" src="images/vimmbutton-100.png" title="Home" alt="Home"></a>
 
   <select class="mainMenuDropdown rounded" onchange="location.href=this.value">
     <option hidden disabled selected>-Main Menu-</option>
-<option value="/emulate">Emulation Lair</option><option value="/vault">The Vault</option><option value="/manual">Manual Project</option><option value="/romhacking">ROM Hacking</option><option value="/bbs">Message Boards</option><option value="/links">FFA Links</option>  </select>
+<option value="emulate">Emulation Lair</option><option value="/vault">The Vault</option><option value="/manual">Manual Project</option><option value="/romhacking">ROM Hacking</option><option value="/bbs">Message Boards</option><option value="/links">FFA Links</option>  </select>
 
   <a href="/emulate" class="navlink rounded">Emulation Lair</a>
   <div class="dropdown">
