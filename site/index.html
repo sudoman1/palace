@@ -29,25 +29,25 @@
     <script src="js/menu.min.js"></script>
   </head>
   <body>
-    <nav id="menu"><div class="menu-segment" style="background:url('images/menu/sprite4.php') 0px 0px; height:10px"></div>
-<div class="menu-segment" style="background:#000035 url('images/menu/sprite4.php') 0px -10px; text-align:center; position:relative">
-	<a href="/" onmouseover="document.getElementById('menuTip').style.removeProperty('display'); document.images['logo'].style.opacity = .5" onmouseout="document.getElementById('menuTip').style.display = 'none'; document.images['logo'].style.opacity = 1">
-		<img style="display:block; margin:auto; transition: opacity .2s" id="logo" src="images/vimmbutton-100.png" width="100" height="100" alt="">
+    <nav id="menu"><div class="menu-segment" style="background:url('img/menu/sprite4.php') 0px 0px; height:10px"></div>
+<div class="menu-segment" style="background:#000035 url('img/menu/sprite4.php') 0px -10px; text-align:center; position:relative">
+	<a href="/" onmouseover="document.getElementById('menuTip').style.removeProperty('display'); document.img['logo'].style.opacity = .5" onmouseout="document.getElementById('menuTip').style.display = 'none'; document.img['logo'].style.opacity = 1">
+		<img style="display:block; margin:auto; transition: opacity .2s" id="logo" src="img/logo.jpg" width="100" height="100" alt="">
 		<div id="menuTip" style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%; color:white; display:none">Vimm's Lair</div>
 	</a>
 </div>
-<div class="menu-segment" style="background:url('images/menu/sprite4.php') 0px -110px; height:16px"></div>
-<div id="mainMenu" class="menu" style="background-image:url('images/menu/sprite4.php#svgView(viewBox(0,125,160,1))'); background-repeat:repeat-y; background-size:160px 1px">
+<div class="menu-segment" style="background:url('img/menu/sprite4.php') 0px -110px; height:16px"></div>
+<div id="mainMenu" class="menu" style="background-image:url('img/menu/sprite4.php#svgView(viewBox(0,125,160,1))'); background-repeat:repeat-y; background-size:160px 1px">
 <a href="/emulate">Emulation Lair</a><a href="/vault">The Vault</a><a href="manual">Manual Project</a><a href="/romhacking">ROM Hacking</a><a href="/bbs">Message Boards</a><a href="/links">FFA Links</a></div>
-<div class="menu-segment" style="background:url('images/menu/sprite4.php') 0px -125px; height:16px"></div>
-<div class="menu-segment" style="background:url('images/menu/sprite4.php') 0px -142px; height:10px"></div>
+<div class="menu-segment" style="background:url('img/menu/sprite4.php') 0px -125px; height:16px"></div>
+<div class="menu-segment" style="background:url('img/menu/sprite4.php') 0px -142px; height:10px"></div>
 
 <div class="menu-footer" style="display:flex; display:none; flex-grow:1; flex-direction:column; justify-content:space-between; margin:0px auto 2px auto">
 <div class="menu"><a href="#" onclick="loadDialog('bbs/ajax/login-dialog.php', 'login-dialog'); return false">Login / Register</a></div><div class="menu" style="display:none; margin:0px auto 2px auto"><a href="#">Test</a></div></div>
 
 </nav>
     <nav id="navbar"><div class="navbar">
-  <a href="" style="padding-left:2px; display:flex; align-items:center"><img class="navLogo" src="images/vimmbutton-100.png" title="Home" alt="Home"></a>
+  <a href="" style="padding-left:2px; display:flex; align-items:center"><img class="navLogo" src="img/vimmbutton-100.png" title="Home" alt="Home"></a>
 
   <select class="mainMenuDropdown rounded" onchange="location.href=this.value">
     <option hidden disabled selected>-Main Menu-</option>
@@ -78,10 +78,10 @@
   <a href="/links" class="navlink rounded">FFA Links</a>
 </div></nav>
     <div id="ads" style="height:auto"><div class="menuColor" style="display:flex; width:100%; height:90px">
-  <div style="flex:0 0 6px; background:url('/images/menu/sprite4.php') -160px 0px"></div>
-  <div style="flex:1 0 4px; background-image:url('/images/menu/sprite4.php#svgView(viewBox(198,0,1,90))'); background-repeat:repeat-x; background-size:1px 90px"></div>
-  <div style="flex:1 0 0px; background-image:url('/images/menu/sprite4.php#svgView(viewBox(198,0,1,90))'); background-repeat:repeat-x; background-size:1px 90px"></div>
-  <div style="flex:0 0 10px; background:url('/images/menu/sprite4.php') -198px 0px"></div>
+  <div style="flex:0 0 6px; background:url('/img/menu/sprite4.php') -160px 0px"></div>
+  <div style="flex:1 0 4px; background-image:url('/img/menu/sprite4.php#svgView(viewBox(198,0,1,90))'); background-repeat:repeat-x; background-size:1px 90px"></div>
+  <div style="flex:1 0 0px; background-image:url('/img/menu/sprite4.php#svgView(viewBox(198,0,1,90))'); background-repeat:repeat-x; background-size:1px 90px"></div>
+  <div style="flex:0 0 10px; background:url('/img/menu/sprite4.php') -198px 0px"></div>
 </div>
 <div style="height:10px"></div></div>
     <div id="main">
@@ -95,7 +95,7 @@
         <main class="mainContent" style="order:1">
 
 <div style="text-align:center; margin-left:auto; margin-right:auto">
-  <img src="/images/vimm6.png" alt="Vimm's Lair" width="400" height="100" style="max-width:calc(100% - 100px); height:auto"><br>Preserving the classics since 1997
+  <img src="/img/vimm6.png" alt="Vimm's Lair" width="400" height="100" style="max-width:calc(100% - 100px); height:auto"><br>Preserving the classics since 1997
 </div>
 
 <p class="mainContent">Welcome to Vimm's Lair! This site is dedicated to console videogame nostalgia. Inside you'll find thousands of games, full-color manual scans, user ratings and reviews, and much more! Whether you're looking to relive an old classic or discover a forgotten gem, Vimm's Lair has everything you need to scratch your nostalgia itch.</p>
