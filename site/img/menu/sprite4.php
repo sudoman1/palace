@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 152" width="208" height="152">
+  <path style="stroke: #FFFFFF; stroke-width: 2px; fill: #000035" d="M 11 2 h 186 a 9 9 0 0 1 9 9 v 13 a 9 9 0 0 1 -9 9 h 2 a 9 9 0 0 1 -9 -9 v -6 a 9 9 0 0 0 -9 -9 h 2 a 9 9 0 0 0 -9 9 v 6 a 9 9 0 0 1 -9 9 h 2 a 9 9 0 0 0 -9 9 v 67 a 9 9 0 0 1 -9 9 h -130 a 9 9 0 0 0 -9 9 v -2 a 9 9 0 0 0 9 9 h 130 a 9 9 0 0 1 9 9 v -2 a 9 9 0 0 1 -9 9 h -138 a 9 9 0 0 1 -9 -9 v -130 a 9 9 0 0 1 9 -9" />
+</svg>
