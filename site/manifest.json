@@ -1,0 +1,19 @@
+{
+  "name": "Palace",
+  "short_name": "Palace",
+  "start_url": ".",
+  "background_color": "#000",
+  "description": "Educational resources for students.",
+  "icons": [
+    {
+      "src": "/img/button.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/button.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
